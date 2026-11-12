@@ -1,5 +1,13 @@
 # Retrieval-Augmented Generation Architectures Using AWS Bedrock and Databricks: A Practical Engineering Guide
 
+## Runnable companions
+
+- [Vector Search Demo](https://github.com/r-aaron-graham/vector-database-integration) ranks a synthetic vector fixture locally.
+- [Adaptive RAG Efficiency Lab](https://github.com/r-aaron-graham/adaptive-rag-efficiency-lab) compares fixed and guarded lexical retrieval with exact citation labels.
+- [Agent Trust Control Plane](https://github.com/r-aaron-graham/agent-trust-control-plane) demonstrates scoped retrieval, policy decisions, and human review.
+
+The examples run locally and illustrate individual parts of the cloud architecture below.
+
 ## Abstract
 
 Standalone large language models (LLMs) are powerful generative systems, but they remain unreliable for enterprise decision support because their outputs can contain hallucinations: confident statements not warranted by underlying evidence. Their internal (parametric) knowledge is also difficult to update, audit, or scope to proprietary data. Retrieval-Augmented Generation (RAG) addresses these limitations by coupling an LLM with an explicit retrieval system over curated knowledge sources, enabling responses to be grounded in retrieved passages with provenance and improved factuality.
